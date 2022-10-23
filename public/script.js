@@ -66,7 +66,7 @@ const setPlayVideo = () => {
 const peer = new Peer(undefined, {
   path: "/peerjs",
   host: "/",
-  port: "3030",
+  port: "443",
 });
 
 const addVideoStream = (video, stream) => {
